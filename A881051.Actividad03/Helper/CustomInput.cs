@@ -1,9 +1,9 @@
-using A827141.Actividad03.Model;
+using A881051.Actividad03.Model;
 using System.Collections.Generic;
 using System;
 using System.Linq;
 
-namespace A827141.Actividad03.Helper
+namespace A881051.Actividad03.Helper
 {
     public class CustomInput
     {
