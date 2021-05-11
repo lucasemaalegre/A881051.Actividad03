@@ -1,8 +1,8 @@
 ﻿using System;
-using A827141.Actividad03.Helper;
-using A827141.Actividad03.Model;
+using A881051.Actividad03.Helper;
+using A881051.Actividad03.Model;
 
-namespace A827141.Actividad03
+namespace A881051.Actividad03
 {
     class Program
     {
