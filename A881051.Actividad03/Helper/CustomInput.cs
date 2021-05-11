@@ -13,7 +13,7 @@ namespace A881051.Actividad03.Helper
 
             do
             {
-                int codigoCuenta = Input.IngresoNumeroPositivo("Ingrese un código de la cuenta contable válido");
+                int codigoCuenta = Input.IngresoNumeroPositivo("Ingrese un código de la cuenta contable");
                 cuenta = planCuentas.buscarCuenta(codigoCuenta);
             } while (!planCuentas.existeCuenta(cuenta));
 
@@ -39,7 +39,7 @@ namespace A881051.Actividad03.Helper
 
                 int importe = Input.IngresoNumeroPositivo("Ingrese el monto");
 
-                salida = Input.IngresoVerdaderoFalso("¿Desea continuar la carga de lineas?");
+                salida = Input.IngresoVerdaderoFalso("¿Desea continuar con la carga de lineas?");
                 
                 asientoContable.agregarLinea(
                     new LineaAsientoContable(cuenta, importe, columna)
