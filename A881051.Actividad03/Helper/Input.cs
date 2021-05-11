@@ -18,7 +18,7 @@ namespace A881051.Actividad03.Helper
             return texto;
         }
 
-        public static string IngresoFecha(string mensaje = "Ingrese una fecha válida.")
+        public static string IngresoFecha(string mensaje = "Ingrese una fecha")
         {
             string texto;
 
