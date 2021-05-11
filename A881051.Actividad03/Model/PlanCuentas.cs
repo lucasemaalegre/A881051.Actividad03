@@ -5,7 +5,7 @@ using A881051.Actividad03.Helper;
 using A881051.Actividad03.Model;
 using System.Linq;
 
-namespace A827141.Actividad03.Model
+namespace A881051.Actividad03.Model
 {
     public class PlanCuentas
     {
