@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace A827141.Actividad03.Model
+namespace A881051.Actividad03.Model
 {
     public class AsientoContable
     {
